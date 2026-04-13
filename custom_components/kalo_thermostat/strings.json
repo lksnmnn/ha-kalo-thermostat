@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "KALO Thermostat",
+        "description": "Enter your KALO Smart Home account credentials.",
+        "data": {
+          "email": "Email",
+          "password": "Password"
+        }
+      },
+      "reconfigure": {
+        "title": "Reconfigure KALO Thermostat",
+        "description": "Update your credentials or reload devices after remounting thermostats.",
+        "data": {
+          "email": "Email",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid email or password.",
+      "cannot_connect": "Unable to connect to the KALO server."
+    },
+    "abort": {
+      "already_configured": "This KALO account is already configured.",
+      "reconfigure_successful": "Reconfiguration successful. Devices will be refreshed."
+    }
+  }
+}
